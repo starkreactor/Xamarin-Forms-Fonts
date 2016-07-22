@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:FontIcons" x:Class="FontIcons.FontIconsPage">
+
+	<ContentPage.Content>
+
+ 
+ <Grid x:Name="MainGrid" VerticalOptions="FillAndExpand" Padding="0" BackgroundColor="White" HeightRequest="1000">
+  	<Grid.RowDefinitions>
+				<RowDefinition Height="*"  />
+				<RowDefinition Height="*"  />
+				<RowDefinition Height="10"  />
+				<RowDefinition Height="10"  />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="5" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="40" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="40" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="40" />
+			</Grid.ColumnDefinitions>
+
+  </Grid>
+ </ContentPage.Content>     
+  
+	
+</ContentPage>
